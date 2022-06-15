@@ -1,8 +1,8 @@
-package milos;
+package MilošVojnović;
 
 import java.util.Scanner;
 
-public class Switchcase {
+public class SwitchCase {
     public static void main(String[] args) {
         Scanner objekat = new Scanner(System.in);
 

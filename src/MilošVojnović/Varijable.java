@@ -1,8 +1,8 @@
-package milos;
+package MilošVojnović;
 
 import java.util.Date;
 
-public class varijable {public static void main(String[] args) {
+public class Varijable {public static void main(String[] args) {
     int width = 30;
     int height = 3;
     int area = width * height;

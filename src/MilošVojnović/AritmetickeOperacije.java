@@ -1,4 +1,4 @@
-package milos;
+package MilošVojnović;
 
 public class AritmetickeOperacije {
     public static void main(String[] args) {

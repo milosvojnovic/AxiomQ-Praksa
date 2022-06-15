@@ -1,6 +1,6 @@
-package milos;
+package MilošVojnović;
 
-public class izmena {public static void main(String[] args) {
+public class Izmena {public static void main(String[] args) {
     int prvaiz = 10;//1
     float drugaiz = prvaiz;//2
     System.out.println(prvaiz);

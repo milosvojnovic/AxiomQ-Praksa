@@ -1,6 +1,6 @@
-package milos;
+package MilošVojnović;
 
-public class ifprovera {
+public class IfProvera {
     public static void main(String[] args) {
         int proveri = 58;
 

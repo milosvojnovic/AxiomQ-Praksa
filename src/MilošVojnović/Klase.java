@@ -1,6 +1,6 @@
-package milos;
+package MilošVojnović;
 
-public class klase {
+public class Klase {
     int x = 10;
     String someString = "Some Value";
 

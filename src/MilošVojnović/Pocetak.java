@@ -1,6 +1,6 @@
-package milos;
+package MilošVojnović;
 
-public class pocetak {public static void main(String[] args) {
+public class Pocetak {public static void main(String[] args) {
     System.out.println("Dobar dan");
     System.out.println("Kako ste");
     System.out.print("Da li ");// ista linija

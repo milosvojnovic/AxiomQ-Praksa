@@ -1,8 +1,8 @@
-package milos;
+package MilošVojnović;
 
 import java.util.Date;
 
-public class datatypes {public static void main(String[] args) {
+public class DataTypes {public static void main(String[] args) {
     int godine = 13;
     String vrednost = "Cao";
     char slovo = 'A';

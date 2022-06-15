@@ -1,6 +1,6 @@
-package milos;
+package MilošVojnović;
 import  java.util.Scanner;
-public class Unosbrojeva {
+public class UnosBrojeva {
     public static void main(String[] args) {
         Scanner nekiObj2 = new Scanner(System.in);
 

@@ -1,6 +1,6 @@
-package milos;
+package MilošVojnović;
 import  java.util.Scanner;
-public class kalkulator {
+public class Kalkulator {
     public static void main(String[] args) {
 
         Scanner nekiObj = new Scanner(System.in);

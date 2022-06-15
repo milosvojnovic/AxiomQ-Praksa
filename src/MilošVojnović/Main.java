@@ -1,4 +1,4 @@
-package milos;
+package MilošVojnović;
 
 import java.util.Date;
 import  java.util.Scanner;
@@ -230,7 +230,7 @@ public class Main {
                 break;
             default:
                 System.out.println("Nepostoji pitanje koje je deklarisano ovim brojem.");
-                
+
 
         }
 
