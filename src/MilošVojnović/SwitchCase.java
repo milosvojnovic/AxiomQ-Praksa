@@ -3,6 +3,8 @@ package MilošVojnović;
 import java.util.Scanner;
 
 public class SwitchCase {
+
+
     public static void main(String[] args) {
         Scanner objekat = new Scanner(System.in);
 
@@ -12,6 +14,7 @@ public class SwitchCase {
 
         int izbor = objekat.nextInt();
         System.out.println("Pitanje broj: " + izbor);
+
 
         switch (izbor) {
             case 1:
