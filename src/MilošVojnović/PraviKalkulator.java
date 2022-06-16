@@ -6,7 +6,6 @@ public class PraviKalkulator {
         char znak;
         Double prvibroj, drugibroj, rezultat;
 
-
         Scanner input = new Scanner(System.in);
 
 
