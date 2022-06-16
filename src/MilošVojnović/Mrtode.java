@@ -15,12 +15,7 @@ public class Mrtode {
 
  */
 
-public void izvojenKod(String customPitanje1,String customPitanje2, String customPitanje3,String customPitanje4){
-    //sav kod koji ti je isti copy paste
-    //i onda samo kod koji se menja zameniti sa argumentima metode
-    //drasticno cemo smanjiti broj linija koda
-    //i kod ce biti citljiviji
-}
+
 public static int kalk(int x, int y) {
     int rezultat = x + y;
     return rezultat;
