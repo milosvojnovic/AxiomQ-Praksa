@@ -5,7 +5,7 @@ public class Nasledjivanje {
         public void operationA();
         public void operationB();
     }
-
+//promena
     interface Biciklo {
         public void lights();
     }
