@@ -1,34 +1,34 @@
 package MilošVojnović;
 
 public class Nasledjivanje {
-    interface Car {
+    interface Auto {
         public void operationA();
         public void operationB();
     }
 
-    interface Bike {
+    interface Biciklo {
         public void lights();
     }
 
-    public class ModelA implements Car, Bike {
+    public class ModelA implements Auto, Biciklo {
 
         public void operationA() {
-            System.out.println("Operation A");
+            System.out.println("Operacija A");
         }
 
         public void operationB() {
-            System.out.println("Operation B");
+            System.out.println("Operacija B");
         }
 
         public void lights() {
-            System.out.println("Generic Lights Starts");
+            System.out.println("Generička svetla počinju");
         }
     }
     public void main(String[] args) {
 
-        ModelA firstObj = new ModelA();
-        firstObj.operationA();
-        firstObj.operationB();
-        firstObj.lights();
+        ModelA prviObj = new ModelA();
+        prviObj.operationA();
+        prviObj.operationB();
+        prviObj.lights();
     }
 }
