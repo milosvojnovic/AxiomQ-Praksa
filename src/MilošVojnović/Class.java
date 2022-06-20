@@ -1,6 +1,6 @@
 package MilošVojnović;
 
-public class Klase {
+public class Class {
     int x = 10;
     String someString = "Some Value";
 

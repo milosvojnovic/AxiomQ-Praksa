@@ -3,100 +3,100 @@ package MilošVojnović;
 import java.util.Scanner;
 
 public class SwitchCase {
-    public void izvojenKod(String customPitanje1,String customPitanje2, String customPitanje3,String customPitanje4){
-        //sav kod koji ti je isti copy paste
-        //i onda samo kod koji se menja zameniti sa argumentima metode
-        //drasticno cemo smanjiti broj linija koda
-        //i kod ce biti citljiviji
+   /* public void wonCode(String customQuestion1,String customQuestion2, String customQuestion3,String customQuestion4){
+        //all the code that is the same copy paste
+        //and then replace only the code that changes with the method arguments
+        //we will drastically reduce the number of lines of code
+        //and the code will be more readable
     }
-
+*/
 
     public static void main(String[] args) {
-        Scanner objekat = new Scanner(System.in);
+        Scanner object = new Scanner(System.in);
 
         System.out.println("--------------------------");
-        System.out.println("Zbirka pitanja: ");
-        System.out.println("Unesite broj željenog pitanja: ");
+        System.out.println("Collection of questions: ");
+        System.out.println("Enter the number of the desired question: ");
 
-        int izbor = objekat.nextInt();
-        System.out.println("Pitanje broj: " + izbor);
+        int choice = object.nextInt();
+        System.out.println("Question number: " + choice);
 
 
-        switch (izbor) {
+        switch (choice) {
             case 1:
-                System.out.println("Glavni grad americke drzave Vajoming je?");
+                System.out.println("The capital of the US state of Wyoming is?");
                 System.out.println("1.Sajen");
-                System.out.println("2.Beograd");
+                System.out.println("2.Belgrade");
                 System.out.println("3.Podgorica");
                 System.out.println("4.Novi Sad");
-                System.out.println("Tacan odgovor je pod rednim brojem:");
-                int izbor1 = objekat.nextInt();
+                System.out.println("The correct answer is under the ordinal number:");
+                int choice1 = object.nextInt();
                 System.out.println();
-                switch (izbor1){
+                switch (choice1){
                     case 1:
-                        System.out.println("Tacno ste odgovorili.");
+                        System.out.println("You answered correctly.");
                         break;
                     case 2:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                     case 3:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                     case 4:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                 }
                 break;
             case 2:
-                System.out.println("Kako se zvao prvi srpski patrijarh?");
+                System.out.println("What was the name of the first Serbian patriarch?");
                 System.out.println("1.Sveti Mihailo");
                 System.out.println("2.Sveti Sava");
                 System.out.println("3.Sveti Joanikije");
                 System.out.println("4.Sveti Branko");
-                System.out.println("Tacan odgovor je pod rednim brojem:");
-                int izbor2 = objekat.nextInt();
+                System.out.println("The correct answer is under the ordinal number:");
+                int choice2 = object.nextInt();
                 System.out.println();
-                switch (izbor2){
+                switch (choice2){
                     case 1:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                     case 2:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                     case 3:
-                        System.out.println("Tacno ste odgovorili.");
+                        System.out.println("You answered correctly.");
                         break;
                     case 4:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                 }
                 break;
             case 3:
-                System.out.println("Koji je glavni grad Indonezije?");
+                System.out.println("What is the capital of Indonesia?");
                 System.out.println("1.Abuja");
                 System.out.println("2.Đakarta");
                 System.out.println("3.Akropolj");
                 System.out.println("4.Paris");
-                System.out.println("Tacan odgovor je pod rednim brojem:");
-                int izbor3 = objekat.nextInt();
+                System.out.println("The correct answer is under the ordinal number:");
+                int choice3 = object.nextInt();
                 System.out.println();
-                switch (izbor3){
+                switch (choice3){
                     case 1:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                     case 2:
-                        System.out.println("Tacno ste odgovorili.");
+                        System.out.println("You answered correctly.");
                         break;
                     case 3:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                     case 4:
-                        System.out.println("Netacno ste odgovorili.");
+                        System.out.println("You answered incorrectly.");
                         break;
                 }
                 break;
             default:
-                System.out.println("Nepostoji pitanje koje je deklarisano ovim brojem.");
+                System.out.println("There is no question declared in this issue.");
 
         }
     }
