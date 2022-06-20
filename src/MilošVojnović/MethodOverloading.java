@@ -1,6 +1,6 @@
 package MilošVojnović;
 
-public class MetodeOverloading {
+public class MethodOverloading {
     public static int sameName(int x, int y) {
         return x + y;
     }

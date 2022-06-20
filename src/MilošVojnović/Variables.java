@@ -2,7 +2,15 @@ package MilošVojnović;
 
 import java.util.Date;
 
-public class DataTypes {public static void main(String[] args) {
+public class Variables {public static void main(String[] args) {
+    int width = 30;
+    int height = 3;
+    int area = width * height;
+    System.out.println("The solution is" + area + ".");
+    final int Hz = 10;//constants
+    System.out.println("Number" + Hz + "Hz");
+    System.out.println("--------------------------");
+    //Data types
     int years = 13;
     String value = "Cao";
     char word = 'A';
